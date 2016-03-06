@@ -1,0 +1,9 @@
+<h1>Lista</h1>
+
+<div class="task" ng-repeat="todo in todos" ng-cloak>
+    <i class="icon-angle-right"></i>
+    <span class="align-text">{{ todo.text}}</span>
+    <a class="icon-cancel" ng-click="remove(todo)"> x</a>
+</div>
+
+<input type="text" ng-model="text" ng-keyup="$event.keyCode == 13 ? submit() : null">

@@ -1,0 +1,23 @@
+{
+  "name": "4-way-data-binding-pouch-db",
+  "authors": [
+    "Welsiton Ferreira = <wfcreations@gmail.com>"
+  ],
+  "description": "4 Way Data Binding with PounchDB",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-pouchdb": "^4.1.0",
+    "bootstrap": "^3.3.6"
+  }
+}
